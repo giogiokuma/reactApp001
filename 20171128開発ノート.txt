@@ -1,0 +1,22 @@
+20171128 
+React 
+a. 
+ 
+ * App.js <Validation inputLength={this.state.userout.length} /> -> 削除
+ * Validation.js 
+   return (
+     <div>
+        {props.inputLength}
+        {validationMessage} 
+        {props.quantity} x {props.children}
+     </div>
+   )
+   ...
+b. Conditional コンポーネントをつくる
+./Conditional/Conditional.js
+
+-------
+20171129
+
+Comment Form 
+
